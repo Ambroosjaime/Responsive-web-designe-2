@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/*mobile syles*/
+
+@media only screen and (max-width: 400px){
+
+  body{
+      background-color: red;
+  }
+}
+
+/*Tablet styles*/
+
+@media only screen and (min-width: 401px) and (max-width: 900px){
+
+    body{
+        background-color: yellow;
+
+    }
+}
+
+/*Destop styles */
+
+@media only schreen and (min-width: 961px){
+    body{
+        
+        background-color: blue;
+    }
+}
+
+.page{
+
+    display:flex;
+    flex-wrap: wrap;
+
+}
